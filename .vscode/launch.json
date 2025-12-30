@@ -3,12 +3,23 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Launch LibGDX Game",
+      "name": "Launch LibGDX Game (No JAR)",
+      "request": "launch",
+      "mainClass": "my.game.lwjgl3.Lwjgl3Launcher",
+      "cwd": "${workspaceFolder}/assets",
+      "console": "integratedTerminal",
+      "preLaunchTask": "gradle: lwjgl3:run",
+      "args": ""
+    },
+    {
+      "type": "java",
+      "name": "Launch LibGDX Game (JAR)",
       "request": "launch",
       "mainClass": "my.game.lwjgl3.Lwjgl3Launcher",
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
-      "preLaunchTask": "gradle: lwjgl3:assemble"
+      "preLaunchTask": "gradle: lwjgl3:assemble",
+      "args": ""
     }
   ]
 }
