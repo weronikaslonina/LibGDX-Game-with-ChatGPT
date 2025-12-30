@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch LibGDX Game",
+      "request": "launch",
+      "mainClass": "my.game.lwjgl3.Lwjgl3Launcher",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "preLaunchTask": "gradle: lwjgl3:build"
+    }
+  ]
+}
