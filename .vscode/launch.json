@@ -8,7 +8,7 @@
       "mainClass": "my.game.lwjgl3.Lwjgl3Launcher",
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
-      "preLaunchTask": "gradle: lwjgl3:build"
+      "preLaunchTask": "gradle: lwjgl3:assemble"
     }
   ]
 }
