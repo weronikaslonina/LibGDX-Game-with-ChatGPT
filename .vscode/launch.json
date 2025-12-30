@@ -8,7 +8,6 @@
       "mainClass": "my.game.lwjgl3.Lwjgl3Launcher",
       "cwd": "${workspaceFolder}/assets",
       "console": "integratedTerminal",
-      "preLaunchTask": "gradle: lwjgl3:run",
       "args": ""
     },
     {

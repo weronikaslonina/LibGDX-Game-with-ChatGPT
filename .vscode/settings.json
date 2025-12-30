@@ -1,5 +1,6 @@
 {
   "oracle.jdkhome": "/usr/lib/jvm/java-17-openjdk-amd64",
   "java.jdt.ls.java.home": "/usr/lib/jvm/java-17-openjdk-amd64",
-  "java.jdt.ls.vmargs": "-XX:+UseG1GC -XX:+UseStringDeduplication -Xmx2G -Xms512m"
+  "java.jdt.ls.vmargs": "-XX:+UseG1GC -XX:+UseStringDeduplication -Xmx2G -Xms512m",
+  "java.configuration.updateBuildConfiguration": "automatic"
 }
